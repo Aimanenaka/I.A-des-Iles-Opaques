@@ -10,7 +10,7 @@ bot.on('prêt',fonction(){
     console.log("Connected")
 });
 
-bot.login(processus .env.TOKEN);
+bot.login(processus.env.TOKEN);
 
 
 bot . sur ( ' message ' , message  => {
