@@ -1,0 +1,19 @@
+{
+  " name " : " discordbot " ,
+  " version " : " 1.0.0 " ,
+  " description " : " " ,
+  " main " : " index.js " ,
+  " scripts " : {
+    " test " : " echo \" Erreur: aucun test spécifié \ " && exit 1 "
+  },
+  " author " : " Aimane " ,
+  " licence " : " ISC " ,
+  " dépendances " : {
+    " bufferutil " : " ^ 3.0.4 " ,
+    " discord.js " : " ^ 11.3.2 " ,
+    " erlpack " : " github: discordapp / erlpack " ,
+    " libsodium-wrappers " : " ^ 0.7.3 " ,
+    " node-opus " : " ^ 0.2.7 " ,
+    " uws " : " ^ 9.147.0 "
+  }
+}
