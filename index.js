@@ -13,7 +13,7 @@ bot.on('prêt',fonction(){
 bot.login(processus.env.TOKEN);
 
 
-bot . sur ( ' message ' , message  => {
+bot.sur ('message',message=>{
 
-if ( message . content . startsWith ( "/test" )) {
-   message . canal . send (`Hey petit test`)
+if(message.content( "/test" )){
+   message.canal.send(`Hey petit test`)
