@@ -15,5 +15,5 @@ bot . login ( processus . env . JETON );
 
 bot . sur ( ' message ' , message  => {
 
-if ( message . content . startsWith ( préfixe + " test" )) {
+if ( message . content . startsWith ( "/test" )) {
    message . canal . send (`Hey petit test`)
