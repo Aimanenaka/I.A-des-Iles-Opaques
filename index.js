@@ -6,7 +6,7 @@ var randnum =  0
 
 bot.on('prêt',fonction(){
     bot.utilisateur.setUsername(" I.A des Iles Opaques ")
-    bot.utilisateur.setPresence({jeu : {nom :'Calculer le nombre d'Habitant'}, statut :'en ligne'});
+    bot.utilisateur.setPresence({jeu : {nom :'Calculer le nombre d'Habitant'}, statut :'en ligne'
     console.log("Connected")
 });
 
